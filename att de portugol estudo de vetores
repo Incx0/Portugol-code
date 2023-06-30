@@ -1,0 +1,28 @@
+programa
+{
+	
+//made by Incx_0 / feito por Isaías / feito por Incx_0//
+	
+	funcao inicio()
+	{
+	     //apenas preguiça de apagar
+		escreva("Olá Mundo")
+		limpa()
+		//varivéis
+		cadeia nome[5]
+		inteiro p
+          //processo: registro dos nomes
+		para(p=0;p<5;p++){
+			//saída de dados: gera o titulo da pergunta
+			escreva("Digite o ", p+1, "º nome: ")
+			//entrada de daods: gera o campo para digitar o nome
+			leia(nome[p])
+		}
+		//processo: lista de nomes
+		para(p=0;p<5;p++){
+			//saída de dados: os nomes registrados anteriormente!
+			escreva(p+1, "º nome: ", nome[p], "\n")
+		}
+		
+	}
+}
